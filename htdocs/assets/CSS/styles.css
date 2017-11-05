@@ -1,0 +1,449 @@
+/* Header Styles */
+body {
+    background: url(http://www.desktopwallpaperhd.net/wallpapers/12/6/pictures-graffiti-background-wallpaper-cool-graphics-desktop-122118.jpg) repeat;
+    background-position-y: 0;
+    background-size: 100%;
+    margin: 0;
+}
+.logo {
+    background: rgba(255, 255, 255, 0.88);
+    text-align: center;
+}
+.logo img {
+    max-width: 30%;
+}
+.dropdown:hover,
+.logout:hover,
+.user-portal:hover {
+    color: #333333;
+}
+.menu-bar .dropbtn,
+.menu-bar .logout {
+    color: #666666;
+    display: inline-block;
+    float: right;
+    font-weight: 900;
+    margin: -2.8em 2em 0 0;
+    padding: 0;
+}
+.menu-bar .dropbtn {
+    font-family: initial;
+    font-weight: 900;
+    margin-right: 8em;
+    text-transform: uppercase;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #efefef;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+.footer div {
+    display: inline-block;
+    padding: .7em 1em;
+}
+.footer #copyright {
+    float: right;
+}
+#company-name img {
+    height: 16px;
+    padding-right: .3em;
+    position: relative;
+    top: .1em;
+    width: 16px;
+}
+
+/* Menu Styles */
+.menu-bar {
+    text-align: center;
+}
+.icons {
+    height: 11em;
+    margin: 10em 7em 7em 7em;
+}
+.icons li {
+    display: inline-block;
+    width: 170px;
+    height: 140px;
+    margin: 0 10px;
+    padding: 20px 0 0 0;
+    background: rgba(255, 255, 255, 0.88);
+    font-size: 18px;
+    line-height: 22px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.icons li:hover {
+    background: rgba(158, 158, 158, 0.88);
+}
+a:hover, a:visited, a:link, a:active {
+    font-weight: 900;
+    text-decoration: none !important;
+}
+.icons li a {
+    color: black;
+    font-size: 130%;
+    position: relative;
+    top: 2em;
+}
+.icons li img {
+    display: block;
+    width: 30px;
+}
+.login-link,
+.register-link {
+    font-weight: 100 !important;
+}
+.login-link:hover,
+.register-link:hover {
+    text-decoration: underline !important;
+}
+
+/* Login Page section is code modified from https://www.formget.com/javascript-login-form/ */
+/* Login Page */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.login-header,
+.register-header {
+    border-radius: 10px 10px 0 0;
+    margin: -10px -50px;
+    padding: 30px 35px;
+    text-align:center;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px -50px 40px;
+}
+div.container {
+    font-family: 'Raleway', sans-serif;
+    margin: 35px auto;
+    width: 900px;
+}
+.login-main {
+    background: #feffed;
+    border: 2px solid gray;
+    border-radius: 10px;
+    float: left;
+    font-family: raleway;
+    margin-top:50px;
+    padding: 10px 45px 25px;
+    width: 310px;
+}
+input[type=text],
+input[type=password],
+input[type=email] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    color: #4f4f4f;
+    font-size: 16px;
+    height: 30px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+}
+label {
+    color: #464646;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #fff;
+}
+center {
+    font-size:32px;
+}
+.note {
+    color:red;
+}
+.valid {
+    color:green;
+}
+.back {
+    background-color: rgb(0, 214, 255);
+    border: 1px solid rgb(0, 143, 255);
+    border-radius: 2px;
+    color: black;
+    padding: 3px 20px;
+    text-decoration: none;
+}
+input[type=button],
+input[type=submit] {
+    background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+    border: 1px solid #e5a900;
+    border-radius: 5px;
+    color: #4E4D4B;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    padding: 10px 0;
+    width: 100%;
+}
+input[type=button]:hover,
+input[type=submit]:hover {
+    background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+.feedback {
+    color: red !important;
+}
+
+/* Register New User */
+.register-main {
+    background: #feffed;
+    border: 2px solid gray;
+    border-radius: 10px;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 50px 25px;
+    width: 300px;
+}
+.register-main input[type=text],
+.register-main input[type=email],
+.register-main input[type=password] {
+    margin-bottom: 20px;
+}
+.register-main .more {
+    color: #03A9F4;
+    cursor: help;
+    display: inline;
+    margin-left: .5em;
+}
+.login-link,
+.register-link {
+    display: block;
+    padding-top: .5em;
+}
+#register-container {
+    margin: 30px auto;
+}
+
+/* Add Incident */
+.page {
+    background: #ffffff;
+    margin: 0 1em 3.5em 1em;
+    padding: 0 2em 2em 2em;
+}
+.page h1 {
+    font-size: 2.5em;
+    padding-top: .5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+#add-incident input[type=text],
+#add-incident input[type=password] {
+    display: block;
+    font-size: 90%;
+    height: 20px;
+    width: 98.6%;
+}
+#add-incident input[type=button],
+#add-incident input[type=submit] {
+    width: 15%;
+}
+#add-incident label {
+    font-weight: normal;
+}
+#add-incident .options {
+    text-align: right;
+}
+#add-incident .list {
+    display: block;
+    margin-top: .5em;
+    width: 25%;
+}
+#add-incident #type-of-building {
+    margin-bottom: 1.5em;
+}
+input[type=button]#upload-images,
+#csv-download {
+    background: initial;
+    border: 1px solid #666666;
+    width: 20%;
+}
+input[type=button]#upload-images:hover,
+#csv-download:hover {
+    background: #4E4D4B;
+    color: #ffffff;
+}
+
+/* View All */
+#all-incidents {
+    min-height: 30em; /*temporary*/
+}
+#csv-download {
+    margin-top: 1.5em;
+}
+
+/* Table Syles - Code from an external source - don't remember which one */
+th {
+    background: linear-gradient(#ffbc00 1%, #ffdd7f 100%);
+    border: 1px solid #ffbc00;
+    font: bold 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    height: 1.5em;
+    letter-spacing: 2px;
+    padding: 6px 6px 6px 12px;
+    text-align: left;
+    text-transform: uppercase;
+}
+th.nobg {
+    background: none;
+    border-left: 0;
+    border-right: 1px solid #ffbc00;
+    border-top: 0;
+}
+th.spec {
+    background: #fff url(images/bullet1.gif) no-repeat;
+    border-left: 1px solid #ffbc00;
+    border-top: 0;
+    font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+th.specalt {
+    background: #f5fafa url(images/bullet2.gif) no-repeat;
+    border-left: 1px solid #ffbc00;
+    border-top: 0;
+    color: #B4AA9D;
+    font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+td {
+    background: #fff;
+    border: 1px solid #ffbc00;
+    padding: 6px 6px 6px 12px;
+}
+table#tablenote {
+    border-collapse: collapse !important;
+}
+
+/* Show Hotspots */
+#map_wrapper {
+    border: 2px solid #efefef;
+    height: 500px;
+    margin: 1em;
+}
+#map_canvas {
+    height: 100%;
+    width: 100%;
+}
+#map_canvas h3 {
+    margin: .3em 0;
+}
+#map_canvas img {
+    height: 140px;
+}
+
+/* Analysis */
+#analysis {
+    min-height: 51em; /*temporary*/
+}
+#barchart_material svg {
+    border: 1px solid black;
+    margin: 1em 0 1em 0;
+    padding: 1em;
+}
+#analysis input[type=button] {
+    padding: .5em 1em;
+    width: auto;
+}
+
+/* Support */
+#support {
+    min-height: 30em; /*temporary*/
+}
+#support p {
+    font-size: 20px;
+    margin: 2em;
+}
+
+/* Account Info */
+#account-info input[type=email],
+#account-info input[type=text] {
+    font-size: 16px;
+    height: 15px;
+    margin-bottom: 10px;
+}
+#account-info input[type=button],
+#account-info input[type=submit] {
+    margin-top: 1em;
+    width: 15em;
+}
+.user-information {
+    background-color: #efefef;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 1em;
+}
+.user-information p {
+    margin-top: 0;
+}
+.update-information h2 {
+    margin-top: 1.5em;
+}
+#user-portal a,
+#user-portal a:visited,
+#user-portal a:link,
+#user-portal a:active,
+#all-incidents a,
+#all-incidents a:visited,
+#all-incidents a:link,
+#all-incidents a:active,
+#map_wrapper a,
+#map_wrapper a:visited,
+#map_wrapper a:link,
+#map_wrapper a:active {
+    color: blue; /*If I was working in LESS, I would nest all of these above selectors*/
+}
+#user-portal a:hover,
+#all-incidents a:hover {
+    color: rgba(0, 0, 255, 0.5);
+}
+#user-portal th:last-child {
+    padding-right: 9px;
+}
+#user-portal td:last-child,
+#all-incidents td:last-child {
+    padding: 0;
+    text-align: center;
+    width: 7%;
+}
+
+/* Dropdown code from: http://www.w3schools.com/howto/howto_js_dropdown.asp */
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:focus,
+.dropbtn:hover  {
+    background-color: rgba(255, 255, 255, 0);
+}
+.dropdown {
+    display: inline-block;
+    float: right;
+    position: relative;
+
+}
+.dropdown-content {
+    background-color: #efefef;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    z-index: 10;
+}
+.dropdown-content a {
+    border-top: 1px dotted #999999;
+    color: #666666;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    background-color: rgba(158, 158, 158, 0.4);
+}
+.show {
+  display:block;
+}
