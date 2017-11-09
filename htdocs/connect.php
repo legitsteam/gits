@@ -2,13 +2,13 @@
   $dbhost = 'localhost';
   $dbuser = 'root';
   $dbpassword = '';
-  $dbname = 'orders';
+  $dbname = 'test';
   $link = mysql_connect($dbhost, $dbuser, $dbpassword);
-  echo "success in database connection.";
+  //echo "success in database connection.";
 
   // select the specific database name we want to access.
   if (!mysql_select_db($dbname)) die(mysql_error());
-    echo "success in database selection.";
+    //echo "success in database selection.";
   // add a table to the selected database
   $result = "CREATE TABLE IF NOT EXISTS users
   (
@@ -21,7 +21,7 @@
   accessid varchar(50)
 )";
   if (mysql_query($result)) {
-     echo "TABLE created.";
+     //echo "TABLE created.";
   }
   else {
      echo "Error in CREATE TABLE.";
@@ -29,7 +29,7 @@
 
   // select the specific database name we want to access.
   if (!mysql_select_db($dbname)) die(mysql_error());
-    echo "success in database selection.";
+    //echo "success in database selection.";
   // add a table to the selected database
   $resultTwo = "CREATE TABLE IF NOT EXISTS incidents
   (
@@ -47,9 +47,9 @@
 )";
 
   if (mysql_query($resultTwo)) {
-     echo "TABLE Two created.";
+     //echo "TABLE Two created.";
   }
   else {
-     echo "Error in CREATE TABLE TWO.";
+     //echo "Error in CREATE TABLE TWO.";
   }
 ?>

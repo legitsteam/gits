@@ -4,7 +4,7 @@
       <meta charset="UTF-8"></meta>
       <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
       <link rel="icon" href="/favicon.ico" type="image/x-icon">
-      <link href="assets/css/styles.css" rel="stylesheet"></link>
+      <link href="assets/css/style.css" rel="stylesheet"></link>
       <script src="assets/javascript/javascript.js"></script>
       <?php
         include 'connect.php';
@@ -22,7 +22,7 @@
           </a>
         </div>
         <div class="menu-bar">
-          <a class="logout" href="index.php" onclick="session_destory()"        title="Sign Out">Sign Out</a>
+          <a class="logout" href="index.php" onclick="session_destory()" title="Sign Out">Sign Out</a>
           <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">            
               <?php
@@ -37,7 +37,14 @@
             </div>
           </div>
         </div>
-        <!-- Navigation Bar -->
+
+        <button>ADD INCIDENT</button>
+        <button>VIEW ALL</button>
+        <button>SHOW HOTSPOTS</button>
+        <button>ANALYSIS</button>
+        <button>SUPPORT</button>
+
+
         <nav class="menu-bar">
           <div class="icons">
             <li class="add-incident-li">
@@ -57,11 +64,9 @@
             </li>
           </div>
         </nav>
-        <!-- Footer (for copyright and what not) -->
       </div>
     </body>
     <footer class="footer">
-      <div id="company-name"><img src="assets/images/icon.png" alt="Utah Icon" />Utah Technologies</div>
-      <div id="copyright">@Copyright 2016</div>
+      <div id="copyright">@Copyright 2017</div>
     </footer>
 </html>
