@@ -33,3 +33,7 @@ Apache 2.0
 
 https://www.apache.org/licenses/LICENSE-2.0
 
+Attributions
+-------------
+https://github.com/tomfried/graffiti
+Changes: different login, added incidents and view all from database. Removed various UI components
