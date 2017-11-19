@@ -22,7 +22,7 @@
           </a>
         </div>
         <div class="menu-bar">
-          <a class="logout" href="index.php" onclick="session_destory()" title="Sign Out">Sign Out</a>
+          <a class="logout" href="index.php" onclick="session_destory()"        title="Sign Out">Sign Out</a>
           <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">            
               <?php
@@ -31,26 +31,9 @@
                   }
               ?>
             </button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="userportal.php" title="User Portal">User Portal</a>
-              <a href="accountinfo.php" title="Account Info">Account Info</a>
-            </div>
-          </div>
-        </div>
-
-        <nav class="menu-bar">
-          <div class="icons">
-            <li class="add-incident-li">
-              <a href="add-incident.php" title="Add Incident">Add Incident</a>
-            </li>
-            <li class="view-all-li">
-              <a href="view-all.php" title="View All">View All</a>
-            </li>
-            <li class="support-li">
-              <a href="support.php" title="Support">Support</a>
-            </li>
-          </div>
-        </nav>
-      </div>
-    </body>
+        <div class="page" id="all-incidents">
+	  <br><b>Email:</b> <a>support@.com</a></br>
+	  <br><b>10am-4pm</b></br>
+	  <br><b>Monday - Friday</b></br> 
+	  <br><b>Except State Holidays</b></br>
 </html>

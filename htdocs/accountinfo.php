@@ -4,7 +4,7 @@
       <meta charset="UTF-8"></meta>
       <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
       <link rel="icon" href="/favicon.ico" type="image/x-icon">
-      <link href="assets/css/styles.css" rel="stylesheet"></link>
+      <link href="assets/CSS/styles.css" rel="stylesheet"></link>
       <script src="assets/javascript/javascript.js"></script>
       <?php
         include 'connect.php';

@@ -4,7 +4,7 @@
       <meta charset="UTF-8"></meta>
       <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
       <link rel="icon" href="/favicon.ico" type="image/x-icon">
-      <link href="assets/css/styles.css" rel="stylesheet">
+      <link href="assets/CSS/styles.css" rel="stylesheet">
       <script src="assets/javascript/javascript.js"></script>
       <?php
         include 'connect.php';
@@ -45,7 +45,7 @@
       <div id="header">
         <div class="logo">
           <a href="home.php" title="Home">
-            <img src="assets/images/header-logo.png" alt="Logo Banner" />
+            <img src="https://i.imgur.com/E52gflI.png" alt="Logo Banner" />
           </a>
         </div>
         <div class="menu-bar">
@@ -189,7 +189,5 @@
       </div>
     </body>
     <footer class="footer">
-      <div id="company-name"><img src="assets/images/icon.png" alt="Utah Icon" />Utah Technologies</div>
-      <div id="copyright">@Copyright 2016</div>
     </footer>
 </html>

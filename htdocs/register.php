@@ -3,7 +3,7 @@
   <head>
     <title>Graffiti Database Registration</title>
     <!-- Include CSS File Here -->
-    <link href="assets/css/styles.css" rel="stylesheet"></link>
+    <link href="assets/CSS/styles.css" rel="stylesheet"></link>
     <!-- Include PHP File Here -->
     <?php
       include 'connect.php';
